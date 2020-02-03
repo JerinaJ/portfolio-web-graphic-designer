@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Web tutorials">
+<meta name="keywords" content="Portfolio">
+<meta name="author" content="JeJ">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio JJ</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--Header_section-->
+<div id="header_wrapper" >
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="index.html" class="img-responsive"><img src="img/logo.png" alt="logo" class="img-responsive"></a></div>
+      <nav class="navbar navbar-inverse navbar-right" role="navigation">
+      <div class="navbar-header flex-end ">
+        <button type="button" id="nav-toggle" class="navbar-toggle center" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> </div>
+        <div id="main-nav" class="collapse navbar-collapse navStyle">
+          <ul class="nav">
+            <li class="active"><a href="#" class="scroll-link nav-item">Home</a></li>
+            <li><a href="#aboutUs" class="scroll-link nav-item">About</a></li>
+            <li><a href="#portfolio" class="scroll-link nav-item">Portfolio</a></li>
+            <li><a href="#contact" class="scroll-link nav-item">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      </n av>
+    </div>
+  </div>
+</div>
+</div>
+<!--Header_section-->
+<div id="hero_section" class="content top_cont_outer"> <img src="img/banner.jpg" class="zoomIn wow animated" alt="Notebook" style="width:100%;">
+  <div class="centered text-center">
+    <h1>Front End Developer</h1>
+    <p style="color:#669999">Web/ Graphic Designer</p>
+    <a href="#aboutUs">
+    <button class="btn-banner btn-danger onClick = "this.style.visibility= 'hidden';"">About me</button>
+    </a> </div>
+</div>
+<!-- modal window-->
+<style>
+	
+	.modalWindow {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0,0,0,0.2);
+z-index: 99999;
+opacity:0;
+pointer-events: none;
+text-align:center;
+}
+.modalWindow:target {
+opacity:1;
+pointer-events: auto;
+}
+.modalWindow > div {
+width: 700px;
+position: relative;
+margin: 0 auto;
+background: #ccc;
+}
+	
+	
+	</style>
+<!--modal window style ends-->
+<!--Hero_Section-->
+<section id="aboutUs">
+  <!--About starts-->
+  <div class="inner_wrapper">
+    <div class="container">
+      <h1>About Me</h1>
+      <div class="inner_section">
+        <div class="row">
+          <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right  delay-01s animated fadeInDown wow animated"> <img src="img/aboutme.PNG" class="img-square delay-03s animated wow zoomIn" alt=""></div>
+          <div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+            <div class=" delay-01s animated fadeInDown wow animated">
+              <h3 style="color: #2b2d2f" > Hi, I'm Jerina. I'm a Web / Graphic Designer/Developer who loves creating great looking web products with rock-solid code.I am currently working as freelancer.</h3>
+              <br>
+              <div class="about">
+                <div class="col-lg-6" style="border-right: 1px solid gray">
+                  <h3 align="center"  style="color:#669999" >What I Know</h3>
+                  <ul>
+                    <li>HTML5, CSS3, BOOTSTRAP3,4</li>
+                    <li>Abobe Photoshop, Illustrator</li>
+                    <li> Client Side: JavaScript</li>
+                    <li> Server Side: PHP5</li>
+                    <li> Version Control System :Git</li>
+                    <li>Dreamweaver 8, Visual Studio Code</li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <h3 align="center" style="color:#669999">What I Do</h3>
+                  <ul>
+                    <li>Effective and aesthetically design</li>
+                    <li>Conceptual thinking</li>
+                    <li>Color theory</li>
+                    <li>Dynamic/Static web sites</li>
+                    <li>Maintain and update of an existing site</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="work_bottom"> <span>Want to know more..</span><a href="page-3.html" >
+      <button class="btn-danger btn-banner">MY Resume</button>
+      </a> </div>
+  </div>
+</section>
+<!--About ends-->
+<!--WORK-->
+<div id="portfolio">
+   <div  class="container-fluid text-center">
+    <h1 style="padding-top: 100px!important;">Portfolio</h1>
+    <br>
+    <!--2 starts-->
+    <div class="row text-center ">
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-2.html"> <img src="img/portfolio/graphic-1.jpg" alt="Greeting" width="400" height="300">
+          <p><strong>Greeting Cards</strong></p>
+          <p>Graphic Design</p>
+          </a>
+          <button type="button">
+          <a href="page-2.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-2.html"> <img src="img/portfolio/graphic-2.jpg" alt="Package" width="400" height="300">
+          <p><strong>Package Designs</strong></p>
+          <p>Graphic Design</p>
+          </a>
+          <button type="button">
+          <a href="page-2.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-2.html"><img src="img/portfolio/graphic-3.jpg" alt="Posters" width="400" height="300">
+          <p><strong>Posters</strong></p>
+          <p>Graphic Design</p>
+          </a>
+          <button type="button">
+          <a href="page-2.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-2.html"> <img src="img/portfolio/graphic-4.jpg" alt="labels" width="400" height="300">
+          <p><strong>Labels</strong></p>
+          <p>Graphic Design</p>
+          </a>
+          <button type="button">
+          <a href="page-2.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--2 ends-->
+    <div class=""> </div>
+    <!--1 starts-->
+    <div class="row text-center ">
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-1.html"> <img src="img/portfolio/project-limtraders.jpg" alt="project-limtraders" width="400" height="300">
+          <p><strong>Project1</strong></p>
+          <p>Web Design</p>
+          </a>
+          <button type="button">
+          <a href="page-1.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-1.html"> <img src="img/portfolio/project_precobuy.jpg" alt="precobuy" width="400px!important" height="300px!important">
+          <p><strong>Project2</strong></p>
+          <p>Web Design</p>
+          </a>
+          <button type="button">
+          <a href="page-1.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-1.html"><img src="img/portfolio/project_church.JPG" alt="church" width="400" height="300">
+          <p><strong>Project3</strong></p>
+          <p>Web Design</p>
+          </a>
+          <button type="button">
+          <a href="page-1.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="thumbnail thum_portfolio"> <a href="page-1.html"> <img src="img/portfolio/project-newera.jpg" alt="newera" width="400" height="300">
+          <p><strong>Project4</strong></p>
+          <p>Web Design</p>
+          </a>
+          <button type="button">
+          <a href="page-1.html"> MORE DETAILS</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--1 ends-->
+  </div>
+</div>
+<!--WORK ENDS-->
+<!--Footer-->
+<footer class="footer_wrapper">
+  <di v class="container">
+  <section class="page_section contact" id="contact">
+    <h1 class="text-center">Contact Me</h1>
+    <div class="contact_section">
+      <div class="row">
+        <div class="col-lg-4"> </div>
+        <div class="col-lg-4"> </div>
+        <div class="col-lg-4"> </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 wow fadeInLeft">
+        <div class="contact_info">
+          <div class="detail">
+            <p style="color:#669999" align="left">Jerina</p>
+            <p style="color:#669999; ">Jurong West Street 81</p>
+          </div>
+          <div class="detail">
+            <p style="color:#669999" align="left">Contact Me</p>
+            <p style="color:#669999">+65 123456</p>
+          </div>
+          <!--<div class="detail">
+            <h5 style="color:#669999" align="left">Email Me</h5>
+            <p style="color:#669999"><a href="mailto:jerinajuliusj@gmail.com">jerinajuliusj@gmail.com</a></p>
+          </div>-->
+        </div>
+      </div>
+      <div class="col-lg-8 wow fadeInLeft delay-06s">
+        <div class="form">
+          <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" required>
+          <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}" required>
+          <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+          <a href="mailto:jerinajuliusj@gmail.com">
+          <button type="submit" class="btn-banner btn-danger"><b>Submit </b></button>
+          </a> </div>
+      </div>
+    </div>
+  </section>
+  </div>
+</footer>
+<div class="container-fluid" style="background:#CCCCCC">
+  <div class="container">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <h5>Designeded by: Jerina</h5>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <h5> Contact information: <a href="mailto:jerinajuliusj@gmail.com">jerinajuliusj@gmail.com</a>.</h5>
+    </div>
+  </div>
+</div>
+<!--FOOTER ENDS-->
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script>
+$(document).ready(function(){
+  $(".btn-danger:first").click(function(){
+    $(this).button('toggle');
+  });   
+});
+
+</script>
+<script>
+function newDoc() {
+  window.open("Project-1.html")
+}
+</script>
+</body>
+</html>
