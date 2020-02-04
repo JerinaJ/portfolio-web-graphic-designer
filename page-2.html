@@ -20,56 +20,15 @@
   
   }
 
-.content-page2{
-  border: 2px light gray;
-  background: light gray;
-  width: 360px;
-  height: 450px;
-  padding-left:10px;
- margin:0px;
-
-}
-.content-page2 img {
- width: 350px;
- height: 450px;
- /* offset-x | offset-y | blur-radius | color */
-box-shadow: 10px 5px 5px black;
- /* box-shadow: 5px 8px rgba(0, 0, 0, 0.2);*/
-  border: 1px solid;
-
-
-}
-.page_box{
-  background-color:#FBFBFB;
- border: 2px solid smoky white;
- /* padding: 10px;*/
-  border-radius: 0px 0px;
-/width: 285px;
-  height: 220px;
-}
-.page_box li {
-  
-  font-size:14px;
-
-
+@media screen and (mix-width: 300px) and (max-width: 768px{
+.con-page2 .col-lg-12{
+position: relative;
+    min-height: 1px;
+    padding-right: 5px;
+	padding-left: 5px;
+    /* padding-left: 15px; */
 }
 
-@media screen and (mix-width: 480px) and (max-width: 768px{
-.content-page2 {
-  width: 200px;
-  height: 200px;
-/*  padding-left:3px;*/
-   box-shadow: 3px 1px 1px black;
-
- 
- }
-.content-page2 img {
- width: 200px;
- height: 200px;
-margin-top:10px;
- margin-left:0px!important;
- }
- 
 }
 </style>
 <body>
@@ -115,21 +74,21 @@ margin-top:10px;
 </center>
 <br>
 <div class="container text-center" >
-  <div class="col-lg-12">
+  <div class="col-lg-12 con-page2">
    <center>
-    <div class="col-lg-4 col-md-4 col-sm-4 content-page2"> <img src="img/page2/greeting-1.jpg"> </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 content-page2"> <img src="img/page2/label.jpg"> </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 content-page2"> <img src="img/page2/greeting-2.jpg"> </div>
+    <div class="col-lg-4 col-md-4"> <img src="img/page2/greeting-1.jpg" style="box-shadow: 1px 1px 1px  dark gray; margin-top:5px;"> </div>
+    <div class="col-lg-4 col-md-4"> <img src="img/page2/label.jpg" style="box-shadow: 1px 1px 1px  dark gray; margin-top:5px;"> </div>
+    <div class="col-lg-4 col-md-4"> <img src="img/page2/greeting-2.jpg" style="box-shadow: 1px 1px 1px  dark gray; margin-top:5px;"> </div>
    </center> 
   </div>
 </div>
 <br>
 <div class="container text-center" id="second">
-  <div class="col-lg-12">
+  <div class="col-lg-12 con-page2">
    <center>
-    <div class="col-lg-4 col-md-4 col-sm-4 content-page2"> <img src="img/page2/flyer.jpg"> </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 content-page2"> <img src="img/page2/package.jpg"> </div>
-    <div class="col-lg-4 col-md-4 col-sm-4 content-page2"> <img src="img/page2/posters.jpg"> </div>
+    <div class="col-lg-4"> <img src="img/page2/flyer.jpg" style="box-shadow: 1px 1px 1px  dark gray; margin-top:5px;"> </div>
+    <div class="col-lg-4"> <img src="img/page2/package.jpg" style="box-shadow: 1px 1px 1px  dark gray; margin-top:5px;"> </div>
+    <div class="col-lg-4"> <img src="img/page2/posters.jpg" style="box-shadow: 1px 1px 1px  dark gray; margin-top:5px;"> </div>
    </center>
   </div>
 </div>
