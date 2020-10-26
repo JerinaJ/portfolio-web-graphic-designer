@@ -297,7 +297,8 @@ background: #ccc;
 
 #aboutUs {
     padding: 0;
-	background-color:#b6c9de;
+	/*background-color:#b6c9de;*/
+	background: linear-gradient(to top,  #ededed , #e6f1f7 , #f6f6f6 );
 }
 .inner_wrapper h1{
     letter-spacing: -1px;
