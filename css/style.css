@@ -55,7 +55,8 @@ color:#669999;
 /* Styles
 ---------------------------------*/
 body {
-    background: #b6c9de;
+   /* background: #b6c9de;*/
+    background: linear-gradient(to top,  #ededed , #e6f1f7 , #f6f6f6 );
     font-family: 'Open Sans' !important;
     font-size: 14px;
     font-weight: normal;
