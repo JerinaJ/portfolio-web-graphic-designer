@@ -208,7 +208,7 @@ body {
 
 .inner_wrapper{
         padding: 120px 0;
-		background: linear-gradient(to top,  #b6c9de, #e6f1f7 , #f6f6f6 );
+		/*background: linear-gradient(to top,  #b6c9de, #e6f1f7 , #f6f6f6 );*/
 }
 .btn_jj{
      border:hidden;
