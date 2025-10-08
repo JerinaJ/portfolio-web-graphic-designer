@@ -250,10 +250,35 @@
       </div>
     </div>
     <div class="work_bottom"> <span>Want to know more..</span>
-		<a href="https://www.behance.net/jerinaj" target="_blank" rel="noopener noreferrer"
-   class="btn" aria-label="Open my Behance portfolio (opens in a new tab)">
-  <span>My Behance</span>
+		<a href="https://www.behance.net/jerinaj" target="_blank" rel="noopener noreferrer" class="btn">
+  <span class="highlight">My Behance</span>
 </a>
+
+		
+		<style>
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #111;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .highlight {
+    background: linear-gradient(90deg, #00bfff, #ff69b4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 8px rgba(0,191,255,0.6);
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover .highlight {
+    text-shadow: 0 0 20px rgba(255,105,180,0.9);
+    letter-spacing: 1px;
+  }
+</style>
       </a> </div>
   </div>
 </div>
